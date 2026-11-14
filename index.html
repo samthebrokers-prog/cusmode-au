@@ -13,7 +13,8 @@
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);line-height:1.6;background:#fff}
 a{color:inherit}
 .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
-.top{background:var(--gold);color:var(--navy);font-size:14px;text-align:center;padding:8px 12px;font-weight:600}
+.top{background:var(--navy);color:#fff;font-size:14px;text-align:center;padding:8px 12px;font-weight:600}
+.top a{color:var(--gold);text-decoration:none}
 header{background:var(--navy);padding:14px 0}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
 header img{height:70px;width:auto;display:block}
@@ -41,13 +42,22 @@ h2{font-size:28px;margin:0 0 6px;color:var(--navy)}
 .cta h2{color:#fff}
 .cta p{opacity:.9}
 .cta .btns{justify-content:center}
+.soon{background:linear-gradient(135deg,#c9a24a,#e2c06e);color:var(--navy);padding:38px 0;text-align:center;border-bottom:4px solid var(--navy)}
+.soon .tag{display:inline-block;background:var(--navy);color:#fff;font-weight:800;letter-spacing:.14em;font-size:13px;text-transform:uppercase;padding:6px 16px;border-radius:30px}
+.soon h1{font-size:clamp(30px,5vw,52px);line-height:1.1;margin:14px 0 10px;color:var(--navy)}
+.soon p{max-width:760px;margin:0 auto;font-size:18px;font-weight:500}
+.soon .btns{justify-content:center}
+.soon .btn{border-color:var(--navy);color:var(--navy)}
+.soon .btn.dark{background:var(--navy);color:#fff}
+.contact .card a{font-weight:700;color:var(--navy)}
+.contact .big{font-size:24px;font-weight:800;color:var(--navy);margin:4px 0 10px;display:block;text-decoration:none}
 footer{background:#071629;color:#c9d1dc;font-size:14px;padding:26px 0;text-align:center}
 footer a{color:#fff}
 @media(max-width:640px){header nav{display:none}header img{height:56px}}
 </style>
 </head>
 <body>
-<div class="top">Open 24/7 for NZ customs &amp; MPI clearance: nights, weekends &amp; holidays. Text 021 807 814 or email info@cusmode.co.nz</div>
+<div class="top">Cusmode AU: call or text <a href="tel:+61404955462">0404 955 462</a> · <a href="mailto:info@cusmode.com.au">info@cusmode.com.au</a> · In NZ? Text <a href="sms:+6421807814">021 807 814</a></div>
 <header>
   <div class="wrap">
     <a href="https://cusmode.com.au/"><img src="https://cusmode.co.nz/wp-content/uploads/2026/02/logo.png" alt="Cusmode Customs Brokers"></a>
@@ -55,10 +65,22 @@ footer a{color:#fff}
       <a href="#services">What we clear</a>
       <a href="#ports">Ports</a>
       <a href="#how">How it works</a>
-      <a href="https://cusmode.co.nz/contact/">Get a quote</a>
+      <a href="#contact">Contact us</a>
     </nav>
   </div>
 </header>
+
+<div class="soon">
+  <div class="wrap">
+    <span class="tag">Coming soon</span>
+    <h1>Cusmode Customs Brokers AU</h1>
+    <p>Australian customs broking from Cusmode is coming soon. Register your interest now and we'll let you know as soon as we open. Meanwhile, we already look after the New Zealand side for Australian exporters.</p>
+    <div class="btns">
+      <a class="btn dark" href="tel:+61404955462">Call or text 0404 955 462</a>
+      <a class="btn" href="mailto:info@cusmode.com.au?subject=Register%20interest%20-%20Cusmode%20AU">Register your interest</a>
+    </div>
+  </div>
+</div>
 
 <div class="hero">
   <div class="wrap">
@@ -66,9 +88,9 @@ footer a{color:#fff}
     <h1>Exporting from Australia to New Zealand? We look after the NZ side.</h1>
     <p>Cusmode Customs Brokers are licensed New Zealand customs brokers. We handle NZ Customs and MPI biosecurity clearance for Australian exporters, freight forwarders and people moving to New Zealand, at every NZ seaport and international airport, 24/7.</p>
     <div class="btns">
-      <a class="btn gold" href="sms:+6421807814">Text 24/7: 021 807 814</a>
-      <a class="btn" href="mailto:info@cusmode.co.nz">Email info@cusmode.co.nz</a>
-      <a class="btn" href="https://cusmode.co.nz/contact/">Get a quote</a>
+      <a class="btn gold" href="tel:+61404955462">AU: 0404 955 462</a>
+      <a class="btn" href="mailto:info@cusmode.com.au">Email info@cusmode.com.au</a>
+      <a class="btn" href="#contact">Contact us</a>
     </div>
   </div>
 </div>
@@ -95,7 +117,7 @@ footer a{color:#fff}
     <div class="grid">
       <div class="card"><h3>Seaports</h3><ul><li>Auckland &amp; Northport (Whangārei)</li><li>Tauranga &amp; Napier</li><li>New Plymouth &amp; Nelson</li><li>Wellington (CentrePort)</li><li>Lyttelton (Christchurch) &amp; Timaru</li><li>Port Chalmers (Dunedin) &amp; Bluff</li></ul></div>
       <div class="card"><h3>International airports</h3><ul><li>Auckland</li><li>Wellington</li><li>Christchurch</li><li>Queenstown</li><li>Dunedin</li></ul></div>
-      <div class="card"><h3>24/7 clearance</h3><ul><li>Nights, weekends and public holidays</li><li>Urgent and after-hours jobs</li><li>Goods held at the NZ border? Text us now</li></ul></div>
+      <div class="card"><h3>24/7 clearance</h3><ul><li>Nights, weekends and public holidays</li><li>Urgent and after-hours jobs</li><li>Goods held at the NZ border? Call 0404 955 462 or text 021 807 814</li></ul></div>
     </div>
   </div>
 </section>
@@ -115,24 +137,24 @@ footer a{color:#fff}
 
 <section class="alt">
   <div class="wrap">
-    <div class="notice"><strong>About Cusmode Customs Brokers AU:</strong> our application for an Australian customs broker licence is in progress. Until it is approved we do not provide Australian customs broking or clearance. The services on this page are New Zealand customs and biosecurity clearance, carried out by licensed customs brokers at Cusmode Customs Brokers in New Zealand. Want to hear when Australian services start? <a href="mailto:info@cusmode.co.nz?subject=Register%20interest%20-%20Cusmode%20AU">Register your interest</a>.</div>
+    <div class="notice"><strong>About Cusmode Customs Brokers AU:</strong> our application for an Australian customs broker licence is in progress. Until it is approved we do not provide Australian customs broking or clearance. The services on this page are New Zealand customs and biosecurity clearance, carried out by licensed customs brokers at Cusmode Customs Brokers in New Zealand. Want to hear when Australian services start? <a href="mailto:info@cusmode.com.au?subject=Register%20interest%20-%20Cusmode%20AU">Register your interest</a>.</div>
   </div>
 </section>
 
-<section class="cta">
+<section id="contact" class="contact">
   <div class="wrap">
-    <h2>Shipping to New Zealand soon?</h2>
-    <p>Send us your documents or a quick message. A licensed NZ customs broker will reply the same day.</p>
-    <div class="btns">
-      <a class="btn gold" href="sms:+6421807814">Text 021 807 814</a>
-      <a class="btn" href="mailto:info@cusmode.co.nz">info@cusmode.co.nz</a>
-      <a class="btn" href="https://cusmode.co.nz/">Visit cusmode.co.nz</a>
+    <h2>Contact us</h2>
+    <p class="sub">Send us your documents or a quick message. We'll reply the same day.</p>
+    <div class="grid">
+      <div class="card"><h3>In Australia</h3><a class="big" href="tel:+61404955462">0404 955 462</a><p>Call or text<br><a href="mailto:info@cusmode.com.au">info@cusmode.com.au</a></p></div>
+      <div class="card"><h3>In New Zealand</h3><a class="big" href="sms:+6421807814">021 807 814</a><p>Text only, 24/7<br><a href="mailto:info@cusmode.co.nz">info@cusmode.co.nz</a></p></div>
+      <div class="card"><h3>Get a quote</h3><p>Tell us what you're shipping, where it's going and when.</p><p style="margin-top:10px"><a href="https://cusmode.co.nz/contact/">Request a quote →</a></p></div>
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="wrap">© 2026 Cusmode Customs Brokers · Licensed New Zealand customs brokers · <a href="https://cusmode.co.nz/">cusmode.co.nz</a></div>
+  <div class="wrap">© 2026 Cusmode Customs Brokers AU (coming soon) · AU <a href="tel:+61404955462">0404 955 462</a> · <a href="mailto:info@cusmode.com.au">info@cusmode.com.au</a> · NZ text <a href="sms:+6421807814">021 807 814</a> · <a href="https://cusmode.co.nz/">cusmode.co.nz</a></div>
 </footer>
 </body>
 </html>
